@@ -23,5 +23,4 @@ def incipit():
         offertaBevanda()
     return True
 incipit()
-offertaAttivita()
 print("SIETE DIVENTATI AMICI!!")
