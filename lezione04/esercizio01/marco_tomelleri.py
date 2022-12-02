@@ -1,1 +1,1 @@
-print("bo")
+print("E' colpa di alessandro")
