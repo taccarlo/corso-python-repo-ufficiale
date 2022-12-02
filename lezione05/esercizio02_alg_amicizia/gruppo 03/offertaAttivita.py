@@ -11,3 +11,4 @@ def offertaAttività():
     print("Scegli fra tutte le opzioni quella che ti sembra la meno disumana")
     print("fattela piacere")
     print("svagatevi un po' insieme")
+    print("Siamo diventati amici")
