@@ -3,20 +3,21 @@ def incipit():
     input("Componi il numero di telefono della persona: ")
     print("E' in casa?")
     casa = input("si/no: ")
-    if (casa == "si"):
-        print("sus")
-    elif(casa == "no"):
+    if (casa == "no"):
         print("Lascia un messaggio \nAspetta di essere richiamato")
+    elif(casa == "sì"):
         print("Ti va di mangiare qualcosa assieme?")
-        risposta = input("si/no: ")
+        risposta = input("ascolta la risposta: ")
         if(risposta == "si"):
             print("Mangiate qualcosa assieme")
-            print("Siete diventati migliori amici! Ora hai una persona in più a cui poter rompere le palle in caso di bisogno e viceversa.")
-   
+            return True
+        if(risposta == "No"):
+            return False
+            
 def offertaBevanda():
     print("offerta_bevanda")
     print("E di bere qualcosa di caldo?")
-    risposta = input("si/no: ")
+    risposta = input("ascolta la risposta si/no: ")
     if(risposta == "si"):
             scelta = input("Preferisci te, caffe o cioccolata? ")
             if(scelta == "tè"):
@@ -25,7 +26,7 @@ def offertaBevanda():
                 print("Fatevi sto caffè")
             elif(scelta == "cioccolata"):
                 print("Fatevi sta cioccolata")
-            print("Siete diventati migliori amici! Ora hai una persona in più a cui poter rompere le palle in caso di bisogno e viceversa.")
+            return True
     if(risposta == 'no'):
         offertaAttivita()
 
@@ -43,10 +44,11 @@ def offertaAttivita():
         print("Scegli fra tutte le opzioni quella che ti sembra la meno disumana")
         print("fattela piacere")
     print("svagatevi un po' insieme")
-    print('"Siete diventati migliori amici! Ora hai una persona in più a cui poter rompere le palle in caso di bisogno e viceversa."')
+   
+risp1 = incipit()
+if(risp1==False):
+    offertaBevanda()
 
-incipit()
-offertaBevanda()
-offertaAttivita()
+print('"Siete diventati migliori amici! Ora hai una persona in più a cui poter rompere le palle in caso di bisogno e viceversa."')
 
 
