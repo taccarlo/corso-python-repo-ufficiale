@@ -1,5 +1,5 @@
 def incipit():
-    print("funzione 1")
+    print("funzione 1 modificata")
     return True
 def offertaBevanda():
     print("funzione 2 modificata")
