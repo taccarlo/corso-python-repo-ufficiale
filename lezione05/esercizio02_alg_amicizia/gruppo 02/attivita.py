@@ -8,7 +8,7 @@ def attivita(risposta):
     while(n<5):
       n = n + 1
       if(voglia == "no"):
-        print("Cos'altro ti va di fare?")
+        txt = input("Cos'altro ti va di fare? ")
         voglia = input("E' una cosa che piace anche a me? si/no: ")
       else:
         print("E facciamolo insieme, dai... \nSvagatevi un po' insieme")

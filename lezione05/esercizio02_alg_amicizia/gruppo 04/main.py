@@ -2,7 +2,7 @@ def offertaAttivita():
     n=0
     print("Allora svaghiamoci un po'...")
     r="no"
-    while((n > 6) and (r == "no")):
+    while((n < 6) and (r == "no")):
         r = input("Cos'altro ti va di fare?")
         r = input("è una cosa che va di fare anche a te?")
         if(r == "si"):
@@ -28,14 +28,17 @@ def offertaBevanda():
         offertaAttivita()
     return True
 def incipit():
-    numero=("\nComponi il numero di telefono: ")
-    risposta=("\nE' a casa? ")
-    print("\nLasci un messaggio e aspetti di essere richiamato...")
-    risposta=("\nTi va di mangiare qualcosa assieme? ")
+    numero=input("\nComponi il numero di telefono: ")
+    risposta=input("\nE' a casa? ")
+    if (risposta == "no"):
+        print("\nLasci un messaggio e aspetti di essere richiamato...")
+    risposta=input("\nTi va di mangiare qualcosa assieme? ")
     if(risposta=="si"):
         print("\nMangiate qualcosa assieme")
     elif(risposta=="no"):
         offertaBevanda()
     return True
+
 incipit()
+
 print("SIETE DIVENTATI AMICI!!")
