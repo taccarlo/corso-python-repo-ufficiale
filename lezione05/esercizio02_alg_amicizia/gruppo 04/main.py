@@ -1,12 +1,44 @@
-def incipit():
-    print("funzione 1")
-    return True
-def offertaBevanda():
-    print("funzione 2")
-    return True
 def offertaAttivita():
-    print("funzione 3")
-    return
+    n=0
+    print("Allora svaghiamoci un po'...")
+    r="no"
+    while((n < 6) and (r == "no")):
+        r = input("Cos'altro ti va di fare?")
+        r = input("è una cosa che va di fare anche a te?")
+        if(r == "si"):
+            print("E facciamolo insieme,dai...")
+            print("Ci svaghiamo insieme")
+            return True
+        else:
+            n=n+1
+    r = input("Scegli fra tutte le opzioni quella che ti sembra essere la meno disumana")
+    print("fattela piacere")
+    print("Ci svaghiamo insieme")    
+    return True
+
+def offertaBevanda():
+    risposta=input("e di bere qualcosa?")
+    if (risposta == "si"):
+        print("Scegli:")
+        print("tè")
+        print("caffè")
+        print("cioccolata")
+        risposta=input("")
+    else:
+        offertaAttivita()
+    return True
+def incipit():
+    numero=input("\nComponi il numero di telefono: ")
+    risposta=input("\nE' a casa? ")
+    if (risposta == "no"):
+        print("\nLasci un messaggio e aspetti di essere richiamato...")
+    risposta=input("\nTi va di mangiare qualcosa assieme? ")
+    if(risposta=="si"):
+        print("\nMangiate qualcosa assieme")
+    elif(risposta=="no"):
+        offertaBevanda()
+    return True
+
 incipit()
-offertaBevanda()
-offertaAttivita()
+
+print("SIETE DIVENTATI AMICI!!")
