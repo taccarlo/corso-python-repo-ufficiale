@@ -40,5 +40,3 @@ def offertaAttività():
     print("Siamo diventati amici")
 
 chiamare()
-offertabevanda()
-offertaAttività()
