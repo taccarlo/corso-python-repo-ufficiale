@@ -13,9 +13,9 @@ elif(casa == "no"):
         print("E di bere qualcosa di caldo?")
         risposta = input("si/no: ")
         if(risposta == "si"):
-            scelta = input("Preferisci tè, caffè o cioccolata? ")
-            if(scelta == "tè"):
-                print("Fatevi sto tè")
+            scelta = input("Preferisci te', caffè o cioccolata? ")
+            if(scelta == "te'"):
+                print("Fatevi sto te'")
             elif(scelta == "caffè"):
                 print("Fatevi sto caffè")
             elif(scelta == "cioccolata"):
