@@ -5,7 +5,9 @@ def offertaBevanda():
     print("offerta_bevanda")
     return True
 def offertaAttivita():
-    print("funzione 3")
+    print("Allora svaghiamoci un po'...")
+    for x in range(6):
+        input("Cos'altro ti va di fare?")
     return
 incipit()
 offertaBevanda()
