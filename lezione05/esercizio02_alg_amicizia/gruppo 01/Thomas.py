@@ -17,5 +17,5 @@ def funzione_3 ():
     else:
         print("e facciamolo insieme, dai..")
     print ("Svagatevi un po' insieme")
-print (funzione_3())
+funzione_3()
 
