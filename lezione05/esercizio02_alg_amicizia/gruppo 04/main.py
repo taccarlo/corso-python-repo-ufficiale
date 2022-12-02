@@ -2,7 +2,15 @@ def offertaAttivita():
     print("funzione 3")
     return
 def offertaBevanda():
-    print("funzione 2")
+    risposta=input("e di bere qualcosa?")
+    if (risposta == "si"):
+        print("Scegli:")
+        print("tè")
+        print("caffè")
+        print("cioccolata")
+        risposta=input("")
+    else:
+        offertaAttivita()
     return True
 def incipit():
     numero=("\nComponi il numero di telefono: ")
