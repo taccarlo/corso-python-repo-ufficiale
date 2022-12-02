@@ -8,13 +8,12 @@ def offertaAttivita():
         if(r == "si"):
             print("E facciamolo insieme,dai...")
             print("Ci svaghiamo insieme")
-            return True
+            return
         else:
             n=n+1
     r = input("Scegli fra tutte le opzioni quella che ti sembra essere la meno disumana")
     print("fattela piacere")
-    print("Ci svaghiamo insieme")    
-    return True
+    print("Ci svaghiamo insieme")
 
 def offertaBevanda():
     risposta=input("e di bere qualcosa?")
@@ -26,7 +25,7 @@ def offertaBevanda():
         risposta=input("")
     else:
         offertaAttivita()
-    return True
+
 def incipit():
     numero=input("\nComponi il numero di telefono: ")
     risposta=input("\nE' a casa? ")
@@ -37,7 +36,6 @@ def incipit():
         print("\nMangiate qualcosa assieme")
     elif(risposta=="no"):
         offertaBevanda()
-    return True
 
 incipit()
 
