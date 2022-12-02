@@ -1,8 +1,0 @@
-def offertaBevanda():
-    risposta=input("e di bere qualcosa?")
-    if (risposta == "si"):
-        print("scegli tè")
-        print("scegli caffè")
-        print("scegli cioccolata")
-    else:
-        offertaAttività()

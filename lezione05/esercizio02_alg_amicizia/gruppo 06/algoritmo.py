@@ -1,7 +1,18 @@
 
 def incipit():
-    print("funzione 1")
-    return True
+    input("Componi il numero di telefono della persona: ")
+    print("E' in casa?")
+    casa = input("si/no: ")
+if (casa == "si"):
+    print("sus")
+elif(casa == "no"):
+    print("Lascia un messaggio \nAspetta di essere richiamato")
+    print("Ti va di mangiare qualcosa assieme?")
+    risposta = input("si/no: ")
+    if(risposta == "si"):
+        print("Mangiate qualcosa assieme")
+        print("Siete diventati migliori amici! Ora hai una persona in più a cui poter rompere le palle in caso di bisogno e viceversa.")
+    
    
 def offertaBevanda():
     print("offerta_bevanda")
