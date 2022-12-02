@@ -1,8 +1,8 @@
 def incipit():
-    print("funzione 1")
+    print("funzione 1 modificata")
     return True
 def offertaBevanda():
-    print("offerta_bevanda")
+    print("funzione 2 modificata")
     return True
 def offertaAttivita():
     print("funzione 3")
