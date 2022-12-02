@@ -1,0 +1,5 @@
+def media(z,x,c):
+    return(z+x+c)/3
+
+print(media(1,5,3))
+
