@@ -2,7 +2,7 @@ def incipit():
     print("funzione 1")
     return True
 def offertaBevanda():
-    print("funzione 2")
+    print("funzione 2 modificata")
     return True
 def offertaAttivita():
     print("funzione 3")
