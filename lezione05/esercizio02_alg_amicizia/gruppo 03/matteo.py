@@ -11,8 +11,7 @@ def offertabevanda():
           print("facciamoci sta cioccolata")
         print("SIETE DIVENTATI AMICI \nora hai una persona in più a cui \npoter rompere le palle \nin caso di bisogno e viceverso")
     else:
-        print("allora svaghiamoci un pò")
-offertabevanda()
+       offertaAttività()
 
    
 
