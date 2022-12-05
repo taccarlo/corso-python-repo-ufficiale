@@ -25,6 +25,7 @@ def secondo():
                 break
         else:
             break
+        
 def terzo(n_p):
     print("\nallora lavori e tasi")
     r=input("\nPromozione? ")
