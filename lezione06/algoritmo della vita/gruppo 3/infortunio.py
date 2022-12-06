@@ -1,8 +1,3 @@
-#infortunio
-
-
-
-
 def infortunio(persona):
 
     counter_anni =0
@@ -21,10 +16,3 @@ def infortunio(persona):
         print('hai la pensione')
     else:
         print('nessun infortunio')
-print(infortunio('persona'))
-
-
-
-
-
-
