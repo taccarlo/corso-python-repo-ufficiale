@@ -1,26 +1,31 @@
 print("La persona è nata!")
 
-
+def lavoro():
+    n_promozioni=0 
+    while n_promozioni<3:
+        x=input("hai ottenuto una promozione? ")
+        if x=="si":
+         print("sei stato promosso")
+         n_promozioni+=1
+        else:
+            print("continua a lavorare")
+    print("sei diventato capo di azienda \npuoi andare in pensione")
 
 def infortunio():
-
-    counter_anni =0
-    
-    while counter_anni <=30:
-    
-        print(counter_anni)
-    
-        counter_anni += 1
-    
     import random
+    counter_anni = 1
+    casuale = random.randrange(1,100)
 
-    casuale = random.randrange(1,60)
-
-    if casuale <=30:
-        print('hai la pensione')
-    else:
-        print('nessun infortunio')
-    lavoro.py
+    while counter_anni <=30:
+        print(counter_anni)
+        if casuale <=30:
+            print("Anno infortunio:", casuale)
+            print('hai la pensione')
+            return
+        counter_anni += 1
+    if counter_anni==30:
+        print("Nessun infortunio")
+    lavoro()
 
 def scuola():
 
