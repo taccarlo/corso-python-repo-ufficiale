@@ -6,7 +6,6 @@ def scuola():
     risposta = ""
     print("Stai frequentando l'anno", anno, "di scuola")
     while(anno != 5 and n_bocciature < 3):
-            risposta = input("Sei stato bocciato?")
             if risposta == "si":
                 n_bocciature += 1
             else:
