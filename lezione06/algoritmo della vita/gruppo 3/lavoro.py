@@ -5,6 +5,6 @@ def lavoro():
         if x=="si":
          print("sei stato promosso")
          n_promozioni+=1
-        elif x=="no":
-         print("continua a lavorare")
-    print("sei divventato capo di azienda \npuoi andare in pensione")
+        else:
+            print("continua a lavorare")
+    print("sei diventato capo di azienda \npuoi andare in pensione")
