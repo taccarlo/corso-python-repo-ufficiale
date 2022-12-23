@@ -1,0 +1,7 @@
+a=int (input("inserire"))
+if a%3==0:
+    for i in range(10):
+        print("nayef")
+else:
+    for i in range(10):
+        print("non è divisibile per 3")
