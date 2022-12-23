@@ -7,4 +7,4 @@ if numero % 3 == 0:
     print("Alessandro")
 else:
   for i in range(10):
-    print("")
+    print("non divisibile per tre")
