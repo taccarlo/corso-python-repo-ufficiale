@@ -43,7 +43,12 @@ else:
         print("non è divisibile per 3")
         i+=1
 
-'''  
+
 
 password = "ciaoney"
+str =input("Enter your password :")
+while password!=str:
+    print ("password non valida" )
+    str =input("Enter your password :")
 
+'''
