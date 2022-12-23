@@ -1,0 +1,9 @@
+def es3():
+    for i in range(20):
+        if ((i)%2==0):
+            print(i)
+    for i in range(20):
+        if((i)%2!=0):
+            print(i)
+es3()
+        
