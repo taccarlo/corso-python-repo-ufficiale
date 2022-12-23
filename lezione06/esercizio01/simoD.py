@@ -12,6 +12,12 @@ Creare un programma che continua a chiedere all'utente una password finché l'ut
 '''
 
 
+
+'''BAMBOLAAAAA'''
+
+
+
+
 """ 
 ESERCIZIO 1
 n = input("inserire nome\n")
