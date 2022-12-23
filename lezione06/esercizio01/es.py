@@ -39,7 +39,6 @@ for i in range(10):
         print("Non è dividibile per 3")
 '''
 #ES5
-
 pwd = "password"
 while True:
     indovina =str(input('Prova ad indovinare la password:'))
