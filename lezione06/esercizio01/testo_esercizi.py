@@ -10,3 +10,8 @@ Chiedere all'utente un numero da inserire, se questo è divisibile per 3 stampa 
 
 Creare un programma che continua a chiedere all'utente una password finché l'utente non la indovina
 '''
+i=0
+for i in range(100):
+    print("Checchinato Mattia")
+
+i +=1
