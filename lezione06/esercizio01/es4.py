@@ -4,7 +4,7 @@
 numero = int(input("Inserisci un numero: "))
 if numero % 3 == 0:
   for i in range(10):
-    print("Alessandro")
+  print("Alessandro")
 else:
   for i in range(10):
-    print("non divisibile per tre")
+  print("non divisibile per tre")
