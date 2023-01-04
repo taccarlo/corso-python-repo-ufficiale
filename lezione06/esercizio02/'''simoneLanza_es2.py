@@ -35,11 +35,47 @@ print(funzione_s(lista,val_1,val_2))'''
 
 #es 2
 
-lista1=["ciao ","mi ","chiamo ","simone "]
+'''lista1=["ciao ","mi ","chiamo ","simone "]
 frase=str("")
 def funz_c(lista,frase):
     for x in lista1:
         frase=frase+str(x)
     return frase 
 print(funz_c(lista1,frase))
-print(lista1)
+print(lista1)'''
+
+#es 3
+
+lista_3=[11,48,23,55,44,33]
+
+
+
+def funz_3(lista_3):
+    x = 1 #variabile intera per controllare la classe degli elemnti della lista
+    copia=[]
+    min=[]
+    magg=[]
+    i=0
+    somma=0
+    while i<len(lista_3):
+        if type(lista_3[i]) != type(x):
+            print("Error")
+        else:
+            somma+=lista_3[i]
+        i+=1
+    media=somma/i
+    
+    minimo=1000000000000
+    for x in range (len(lista_3)):
+        if lista_3[x]<minimo:
+            minimo=lista_3[x]
+    media=sum(lista_3)/len(lista_3)
+    massimo=0
+    for x in range (len(lista_3)):
+        if lista_3[x]>massimo:
+            massimo=lista_3[x]
+    newlist=[minimo,media,massimo,]
+    return newlist
+
+print(funz_3(lista_3))    
+            
