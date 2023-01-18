@@ -15,4 +15,12 @@ print(sostituisci(lista01,val1,val2))
 #es2
 
 v1=str(input("inserire una lista di valori separati dallo spazio"))
+list02=list(v1.split())
+print (list02)
 
+def string(x):
+    delimitat=" "
+    frase = delimitat.join(x)
+    return frase
+
+print (string(list02))
