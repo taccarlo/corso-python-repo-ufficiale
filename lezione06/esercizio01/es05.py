@@ -2,7 +2,7 @@
 
 
 pwd = input("Inserisci la password: ")
-while pwd != "password":
+while pwd != "password": 
     pwd = input("Password errata, inserisci la password: ")
 print("Password corretta")
 
