@@ -3,6 +3,7 @@ def offertaAttivita():
     print("Allora svaghiamoci un po'...")
     r="no"
     while((n < 6) and (r == "no")):
+        
         r = input("Cos'altro ti va di fare?")
         r = input("è una cosa che va di fare anche a te?")
         if(r == "si"):
