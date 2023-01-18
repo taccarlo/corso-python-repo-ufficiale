@@ -1,0 +1,13 @@
+'''
+Data una lista di numeri restituire una lista in cui tutti gli elementi adiacenti uguali sono stati ridotti ad un singolo elemento.
+Esempio:
+con [1,2,2,3,2,2,3] la funzione ritorna [1,2,3,2,3]
+Nota: si può sia restituire una nuova lista sia modificare quella passata come argomento.
+'''
+
+'''
+Date due liste ordinate in ordine crescente, creare e restituire un’unica lista di tutti gli elementi ordinati.
+E’ possibile modificare le liste passate come argomenti.
+Idealmente l’algoritmo dovrebbe implicare una singola iterazione su ciascuna lista.
+Suggerimento: le liste sono ordinate: confrontare il primo elemento delle due liste ed aggiungere il più piccolo alla lista da restituire come risultato (rimuovendolo dalla lista originaria). Continuare fino a che una delle due liste non si svuota.
+'''
