@@ -20,6 +20,8 @@ quando non viene scelto di uscire e che chieda quale
 azione eseguire.
 '''
 
+
+
 registro = {"paolo":[] , "antonio":[], "giorgio":[]}
 print("Benvenuto nel registro!")
 
