@@ -21,9 +21,3 @@ Scrivere una funzione che prende in input una lista,
  che in prima posizione contiene il valore 
  minimo dell’input, in seconda posizione la media
   e in terza posizione contiene il valore massimo.
-
-
-
-
-
-rana pazza
