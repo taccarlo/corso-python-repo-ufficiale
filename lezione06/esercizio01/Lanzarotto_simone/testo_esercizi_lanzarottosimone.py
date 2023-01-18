@@ -1,4 +1,3 @@
-
 '''
 Stampare a terminale per cento volte il vostro nome e il vostro cognome'''
 nome=input("inserire il vostro nome")
