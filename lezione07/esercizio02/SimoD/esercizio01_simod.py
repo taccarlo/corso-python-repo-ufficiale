@@ -10,9 +10,11 @@ Nota: si può sia restituire una nuova lista sia modificare quella passata come 
 def funzione(lista):
     
     listamod = []
-    for x in range (len(lista)):
-        if x not in listamod:
+    listamod.append(lista[0])
+    for x in range (1,len(lista)):
+        if (lista[x] != lista[x-1]):
             listamod.append(lista[x])
+            
     
     return listamod
 
