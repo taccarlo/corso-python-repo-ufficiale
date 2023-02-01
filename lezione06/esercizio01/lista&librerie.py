@@ -14,7 +14,7 @@ import random
 k=[]
 n=int(input("a:"))
 m=int(input("b:"))
-for i in range(20):
+for i in range(21):
     l=random.randint(n,m)
     k.append(l)
 print(k)
