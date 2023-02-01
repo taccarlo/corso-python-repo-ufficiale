@@ -1,0 +1,15 @@
+
+Stampare i numeri pari da 1 a 100,
+ poi stampare i numeri dispari da 1 a 40
+(utilizzando il ciclo for con la funzione range)
+
+Generare una lista lunga 20 di numeri casuali compresi 
+tra n ed m inseriti da utente, a questo punto stampare
+ la lista e successivamente stamparla capovolta 
+ (dall’ultimo elemento al primo) e raddoppiando ogni 
+ numero 
+
+Scrivere un programma che individui il valore 
+massimo e minimo all’interno di una lista lunga
+ n (inserito da utente) di numeri generati casualmente 
+ da -8 a 15.
