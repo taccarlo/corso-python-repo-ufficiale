@@ -10,4 +10,30 @@ import random
 def lancia_dado():
     return random.randint(1, 6)
 
+
+def scontro(difensore, attaccante):
+    if difensore > attaccante:
+        return True
+    else:
+        return False
+
+
+def ordina_dadi(lista):
+    for i in range(0, len(lista) - 1):
+        for j in range(i + 1, len(lista)):
+            if lista[i] < lista[j]:
+                temp = lista[i]
+                lista[i] = lista[j]
+                lista[j] = temp
+
+    return lista
+
+
+def main():
+    print(lancia_dado())
+    print(scontro(5, 6))
+    print(ordina_dadi([1, 2, 3, 4, 5, 6]))
+
+if __name__ == '__main__':
+    main()
     
