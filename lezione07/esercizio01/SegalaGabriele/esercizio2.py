@@ -1,3 +1,4 @@
+
 def unisci(lista):
     stringa=""
     stringa="".join(lista)
