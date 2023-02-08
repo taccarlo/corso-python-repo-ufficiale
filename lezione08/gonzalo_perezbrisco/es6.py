@@ -17,7 +17,6 @@ def terza(d):
   return tmp
 
 distribuitore = {"merendine fiesta": 80, "merendine duplo": 90, "succhi di frutta": 45, "oreo": 90}
-
 print(trova(distribuitore))
 print(seconda(distribuitore))
 print(terza(distribuitore))
